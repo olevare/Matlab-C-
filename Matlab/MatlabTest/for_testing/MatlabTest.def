@@ -1,0 +1,11 @@
+LIBRARY MatlabTest
+EXPORTS
+MatlabTestInitialize
+MatlabTestInitializeWithHandlers
+MatlabTestTerminate
+MatlabTestPrintStackTrace
+mlxAdditionFromStruct
+mlxAddTwoInt
+mlxGetString
+mlxGetStruct
+

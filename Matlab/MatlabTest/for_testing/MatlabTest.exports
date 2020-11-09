@@ -1,0 +1,9 @@
+MatlabTestInitialize
+MatlabTestInitializeWithHandlers
+MatlabTestTerminate
+MatlabTestPrintStackTrace
+mlxAdditionFromStruct
+mlxAddTwoInt
+mlxGetString
+mlxGetStruct
+

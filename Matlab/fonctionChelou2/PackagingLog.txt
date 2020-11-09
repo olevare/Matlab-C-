@@ -1,0 +1,165 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_redistribution" />
+  <mkdir dir="C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing" />
+  <mkdir dir="C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_redistribution_files_only" />
+</ant>
+mcc -W cpplib:fonctionChelou2 -T link:lib -d C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing -v C:\Users\alexandre.duhant\Desktop\FonctionChelou.m C:\Users\alexandre.duhant\Desktop\GetInversBool.m C:\Users\alexandre.duhant\Desktop\GetMatrix.m C:\Users\alexandre.duhant\Desktop\IsMatrix.m -a C:\Users\alexandre.duhant\Desktop\FonctionChelou.m -a C:\Users\alexandre.duhant\Desktop\GetInversBool.m -a C:\Users\alexandre.duhant\Desktop\GetMatrix.m -a C:\Users\alexandre.duhant\Desktop\IsMatrix.m 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+Begin validation of MEX files: Tue Nov 03 13:27:05 2020
+End validation of MEX files: Tue Nov 03 13:27:05 2020
+[Warning: Adding path "C:\Users\alexandre.duhant\Desktop" to Compiler path
+instance.] 
+[Warning: Adding path "C:\Users\alexandre.duhant\Desktop" to Compiler path
+instance.] 
+[Warning: Duplicate directory name: C:\Users\alexandre.duhant\Desktop] 
+[Warning: Adding path "C:\Users\alexandre.duhant\Desktop" to Compiler path
+instance.] 
+[Warning: Duplicate directory name: C:\Users\alexandre.duhant\Desktop] 
+[Warning: Adding path "C:\Users\alexandre.duhant\Desktop" to Compiler path
+instance.] 
+[Warning: Duplicate directory name: C:\Users\alexandre.duhant\Desktop] 
+Parsing file "C:\Users\alexandre.duhant\Desktop\FonctionChelou.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Users\alexandre.duhant\Desktop\GetInversBool.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Users\alexandre.duhant\Desktop\GetMatrix.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Users\alexandre.duhant\Desktop\IsMatrix.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.h".
+Generating file "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.cpp".
+Generating file "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.exports".
+Generating file "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\readme.txt".
+Executing command: ""C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\bin\mbuild"  -client mbuild -O -v -output "fonctionChelou2" -I"C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing" "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.cpp"  DEFFILE"=""C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.def""" LINKEXPORT"=""/DLL /def:\"$DEFFILE\"""" LDEXT"="".dll""" CMDLINE250"=""mt -outputresource:$EXE;2 -manifest $MANIFEST""" -outdir "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing""Verbose mode is on.
+No MEX options file identified; looking for an implicit selection.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft SDK 7.1' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft SDK 7.1'.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2008' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2008'.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2010 ' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2010 '.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft SDK 7.1' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft SDK 7.1'.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2010' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2010'.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2012' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2012'.
+... Looking for compiler 'Microsoft Visual C++ 2008 Professional' ...
+... Looking for environment variable 'VS90COMNTOOLS' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2008 Professional'.
+... Looking for compiler 'Microsoft Visual C++ 2010 Professional' ...
+... Looking for environment variable 'VS100COMNTOOLS' ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe' ...Yes.
+... Looking for folder 'c:\Program Files (x86)\Microsoft Visual Studio 10.0' ...Yes.
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A' InstallationFolder ...Yes ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\').
+... Looking for environment variable 'VS100COMNTOOLS' ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2010 Professional'.
+... Looking for compiler 'Microsoft Visual C++ 2012' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2012'.
+... Looking for compiler 'Microsoft Visual C++ 2013 Professional' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 12.0 ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2013 Professional'.
+... Looking for compiler 'Microsoft Windows SDK 7.1 (C++)' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.1' InstallationFolder ...Yes ('C:\Program Files\Microsoft SDKs\Windows\v7.1\').
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VC7' 10.0 ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe' ...Yes.
+... Looking for folder 'c:\Program Files (x86)\Microsoft Visual Studio 10.0' ...Yes.
+Found installed compiler 'Microsoft Windows SDK 7.1 (C++)'.
+Set PATH = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Bin;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Bin\VCPackages;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Bin;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Bin;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;E:\CUDA_9.1\Dev\bin;E:\CUDA_9.1\Dev\libnvvp;;;C:\Program Files\Microsoft MPI\Bin\;E:\CMake\CMake 2.8\bin;E:\Qt\Tools\mingw530_32\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MATLAB\R2011a\runtime\win64;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Qt\5.8\msvc2015\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;E:\Halcon\bin\x64-win64;C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\runtime\win32;C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files (x86)\NVIDIA Corporation\Phy6sX\Common;C:\Program Files\PuTTY\;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;C:\Users\alexandre.duhant\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\ArrayFire\v3\lib
+Set INCLUDE = c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE;C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE;C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\gl;;
+Set LIB = c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Lib;;
+Set LIBPATH = c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\\LIB;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\ATLMFC\LIB;C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\lib\win32;;
+Options file details
+-------------------------------------------------------------------
+	Compiler location: c:\Program Files (x86)\Microsoft Visual Studio 10.0
+	Options file: C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\bin\win32\mexopts\winsdk-7.1_cpp.xml
+	CMDLINE100 : cl /c -MD -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo -O2 -DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE -IC:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing  -I"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\include" -I"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\include\win32" C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.cpp /FoC:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.obj
+	CMDLINE200 : link /nologo /manifest   /DLL /def:"C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.def" C:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.obj  /LIBPATH:"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\lib\win32\microsoft" mclmcrrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /out:C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll
+	CMDLINE250 : mt -outputresource:C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll;2 -manifest C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll.manifest
+	CMDLINE300 : del C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll.manifest "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.map" 
+	COMPILER : cl
+	COMPFLAGS : -MD -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo
+	COMPDEFINES : /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE
+	MATLABMEX : 
+	OPTIMFLAGS : -O2 -DNDEBUG
+	INCLUDE : -IC:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing  -I"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\include" -I"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\include\win32"
+	DEBUGFLAGS : /Z7
+	LINKER : link
+	LINKFLAGS : /nologo /manifest
+	LINKTYPE : 
+	LINKEXPORT : /DLL /def:"C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.def"
+	LINKLIBS : /LIBPATH:"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\lib\win32\microsoft" mclmcrrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+	LINKDEBUGFLAGS : /debug /PDB:"C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.pdb"
+	LINKOPTIMFLAGS : 
+	OBJEXT : .obj
+	LDEXT : .dll
+	SETENV : set COMPILER=cl 
+				set COMPFLAGS=/c -MD -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE  
+				set OPTIMFLAGS=-O2 -DNDEBUG 
+				set DEBUGFLAGS=/Z7 
+				set LINKER=link 
+				set LINKFLAGS=/nologo /manifest /export:%ENTRYPOINT%  /LIBPATH:"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\lib\win32\microsoft" mclmcrrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DLL /def:"C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.def" 
+				set LINKDEBUGFLAGS=/debug /PDB:"%OUTDIR%%MEX_NAME%.dll.pdb" 
+				set NAME_OUTPUT=/out:"%OUTDIR%%MEX_NAME%%MEX_EXT%"
+	SDKROOT : C:\Program Files\Microsoft SDKs\Windows\v7.1\
+	VSROOT : c:\Program Files (x86)\Microsoft Visual Studio 10.0
+	MATLABROOT : C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a
+	ARCH : win32
+	SRC : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.cpp
+	OBJ : C:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.obj
+	OBJS : C:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.obj 
+	SRCROOT : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2
+	DEF : C:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.def
+	EXP : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.exp
+	LIB : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.lib
+	EXE : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll
+	ILK : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.ilk
+	MANIFEST : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll.manifest
+	TEMPNAME : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2
+	EXEDIR : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\
+	EXENAME : fonctionChelou2
+	DEFFILE : C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.def
+	OPTIM : -O2 -DNDEBUG
+	LINKOPTIM : 
+-------------------------------------------------------------------
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+cl /c -MD -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo -O2 -DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE -IC:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing  -I"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\include" -I"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\include\win32" C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.cpp /FoC:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.obj
+fonctionChelou2.cpp
+
+link /nologo /manifest   /DLL /def:"C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.def" C:\Users\ALEXAN~1.DUH\AppData\Local\Temp\mex_58192321664804_11012\fonctionChelou2.obj  /LIBPATH:"C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\extern\lib\win32\microsoft" mclmcrrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /out:C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll
+   Création de la bibliothèque C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.lib et de l'objet C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.exp
+
+mt -outputresource:C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll;2 -manifest C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll.manifest
+Microsoft (R) Manifest Tool version 6.1.7716.0
+
+Copyright (c) Microsoft Corporation 2009. 
+
+All rights reserved.
+
+
+del C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.dll.manifest "C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_testing\fonctionChelou2.map"
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\alexandre.duhant\Desktop\fonctionChelou2\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 2 minutes and 54 seconds.
